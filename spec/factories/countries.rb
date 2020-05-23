@@ -3,3 +3,4 @@ FactoryBot.define do
         name { "Poland" }
         code { "PL" }
   end
+end
