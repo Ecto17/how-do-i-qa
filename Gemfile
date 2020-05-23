@@ -12,6 +12,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'jquery-rails'
 gem 'uglifier'
+gem 'factory_girl_rails', "~> 4.0"
+gem 'faker'
 gem 'coffee-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
