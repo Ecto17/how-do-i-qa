@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'Task 0 spec', js: true, type: :feature do
-  describe 'index page' do
+  describe 'Task 0 page' do
     it 'shows the right content' do
       visit 'http://localhost:3000/pages/test_0'
       expect(page).to have_content('Test #0')

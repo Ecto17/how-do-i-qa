@@ -9,8 +9,8 @@ FactoryGirl.define do
 end
 
 describe 'Task 5 spec', js: true, type: :feature do
-  describe 'index page' do
-    it 'shows the right content' do
+  describe 'Task 5 page' do
+    it 'uses a factory to log in' do
         user = FactoryGirl.create(:user)
         visit 'http://localhost:3000/pages/test_5'
         expect(page).to have_content('Log in')

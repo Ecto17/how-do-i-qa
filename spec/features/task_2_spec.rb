@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 describe 'Task 2 spec', js: true, type: :feature do
-  describe 'index page' do
-    it 'shows the right content' do
+  describe 'Task 2 page' do
+    it 'passes assertion with simple js inputs' do
       visit 'http://localhost:3000/pages/test_2'
       expect(page).to have_content('Test #2')
       fill_in('example_textfield', with: 'Seba')

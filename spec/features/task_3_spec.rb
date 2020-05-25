@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 describe 'Task 3 spec', js: true, type: :feature do
-  describe 'index page' do
-    it 'shows the right content' do
+  describe 'Task 3 page' do
+    it 'passes assertion with css property' do
       visit 'http://localhost:3000/pages/test_3'
       expect(page).to have_content('Test #3')
       find('.table-bordered', match: :first).click
